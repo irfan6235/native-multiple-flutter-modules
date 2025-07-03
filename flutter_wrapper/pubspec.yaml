@@ -1,0 +1,23 @@
+name: flutter_wrapper
+description: Flutter wrapper module combining shop and payment.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.2.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_module:
+    path: ../flutter_module
+  flutter_payment_sdk:
+    path: ../flutter_payment_sdk
+  cupertino_icons: ^1.0.2
+
+flutter:
+  uses-material-design: true
+
+  module:
+    androidX: true
+    androidPackage: com.flutter.wrapper
+    iosBundleIdentifier: com.flutter.wrapper
